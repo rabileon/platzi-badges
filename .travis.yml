@@ -8,6 +8,7 @@ git:
   depth: 3
 script:
   - npm run build
+  - npm run test
 deploy:
   provider: pages
   edge: true,
